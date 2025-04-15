@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+TOKEN = os.getenv('7659692029:AAFUc6aEkobCqdA8iQ4peCd2mT8BiCzAark')
 bot = TeleBot(TOKEN)
 
 def register_commands(bot: TeleBot):
